@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "ufo_functions.hpp"
 
 int main() {
@@ -20,11 +18,6 @@ int main() {
         misses++;
     }
     
-    //Win
-    if (codeword == answer) 
-        std::cout << "Hooray! You saved the person and earned a medal of honor!\n";
-    //Lose
-    else 
-        std::cout << "Oh no! The UFO just flew away with another person!\n";
+    end_game(codeword, answer);
 
 }
