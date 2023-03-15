@@ -1,7 +1,7 @@
 #include "ufo_functions.hpp"
 
 void greet() {
-    std::string line = "============\n";
+    std::string line = "===============\n";
     std::string instructions = "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n\n";
     std::cout << line << "UFO: The Game\n" << line << instructions;
 }

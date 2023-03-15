@@ -1,5 +1,8 @@
 #include "ufo_functions.hpp"
 
+/*
+* This game is essentially hangman but UFO themed.
+*/
 int main() {
     greet();
 
